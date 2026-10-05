@@ -16,7 +16,7 @@ namespace AnimatorTrackReference
 	{
 		internal const string NameConstant = nameof(AnimatorTrackReference);
 
-		internal const string VersionConstant = "1.0.0";
+		internal const string VersionConstant = "1.0.1";
 
 		public override string Name => NameConstant;
 
@@ -99,9 +99,9 @@ namespace AnimatorTrackReference
 				var track = clip[i];
 				stringBuilder.AppendFormat("- [{0}]:", i);
 				stringBuilder.AppendLine();
-				stringBuilder.Append("\tNode: ");
+				stringBuilder.Append("    Node: ");
 				stringBuilder.AppendLine(track.Node);
-				stringBuilder.Append("\tValue Type: ");
+				stringBuilder.Append("    Value Type: ");
 				stringBuilder.Append(track.FrameType.Name);
 				stringBuilder.AppendLine();
 			}
