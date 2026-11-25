@@ -16,7 +16,7 @@ namespace AnimatorTrackReference
 	{
 		internal const string NameConstant = nameof(AnimatorTrackReference);
 
-		internal const string VersionConstant = "1.0.1";
+		internal const string VersionConstant = "1.0.2";
 
 		public override string Name => NameConstant;
 
